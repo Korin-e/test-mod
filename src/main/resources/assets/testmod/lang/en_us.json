@@ -1,0 +1,10 @@
+{
+  "item.testmod.raw_umbranite": "Raw Umbranite",
+  "item.testmod.umbranite": "Umbranite",
+
+  "block.testmod.umbranite_block": "Umbranite Block",
+  "block.testmod.umbranite_ore": "Umbranite Ore",
+  "block.testmod.deepslate_umbranite_ore": "Deepslate Umbranite Ore",
+
+  "itemGroup.testmod.umbranite": "Umbranite"
+}

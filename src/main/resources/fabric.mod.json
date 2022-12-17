@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.komett.testmod.TestMod"
+    ],
+    "client": [
+      "net.komett.testmod.TestModClient"
     ]
   },
   "mixins": [
