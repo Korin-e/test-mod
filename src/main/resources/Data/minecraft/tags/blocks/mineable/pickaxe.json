@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:umbranite_ore",
+    "testmod:umbranite_block",
+    "testmod:deepslate_umbranite_ore"
+  ]
+}

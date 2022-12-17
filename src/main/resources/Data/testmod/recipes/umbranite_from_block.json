@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testmod:umbranite_block"
+    }
+  ],
+  "result": {
+    "item": "testmod:umbranite",
+    "count": 9
+  }
+}

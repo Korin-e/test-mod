@@ -17,14 +17,17 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
     // Block to register
 
-    private static final Block UMBRANITE_BLOCK = registerBlock("umbranite_block",
-            new Block(FabricBlockSettings.of(Material.DENSE_ICE).strength(4f).requiresTool()), ModItemGroup.UMBRANITE);
-    private static final Block UMBRANITE_ORE = registerBlock("umbranite_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+    public static final Block UMBRANITE_BLOCK = registerBlock("umbranite_block",
+            new Block(FabricBlockSettings.of(Material.DENSE_ICE).strength(4.0f).requiresTool()), ModItemGroup.UMBRANITE);
+    public static final Block UMBRANITE_ORE = registerBlock("umbranite_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.UMBRANITE);
-    private static final Block DEEPSLATE_UMBRANITE_ORE = registerBlock("deepslate_umbranite_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+    public static final Block DEEPSLATE_UMBRANITE_ORE = registerBlock("deepslate_umbranite_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.UMBRANITE);
+
+    //public static final Block DIAMOND_ORE = Blocks.register("diamond_ore", new ExperienceDroppingBlock(AbstractBlock.Settings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f), UniformIntProvider.create(3, 7)));
+
 
     // Register Block and Item
     private static Block registerBlock(String name, Block block, ItemGroup group) {

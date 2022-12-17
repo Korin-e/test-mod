@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "patern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:umbranite"
+    }
+  },
+  "result": {
+    "item": "testmod:umbranite_block"
+  }
+}
