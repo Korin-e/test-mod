@@ -1,7 +1,7 @@
 package net.komett.testmod;
 
 import net.fabricmc.api.ModInitializer;
-import net.komett.testmod.Item.ModItems;
+import net.komett.testmod.item.ModItems;
 import net.komett.testmod.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

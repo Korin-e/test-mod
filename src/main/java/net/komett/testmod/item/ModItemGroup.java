@@ -1,4 +1,4 @@
-package net.komett.testmod.Item;
+package net.komett.testmod.item;
 
 import net.komett.testmod.TestMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
